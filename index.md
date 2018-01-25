@@ -169,7 +169,7 @@ above, and then converted into a letter grade using the following scale:
   * Dijkstra Algorithm
   * Floyd-Warshall Algorithm
 
-## Schedule (Tentative)
+<!-- ## Schedule (Tentative)
 
 | Week  | Monday                         | Wednesday                           | Thursday                              |
 | :---: | :----------------------------: | :---------------------------------: | :-----------------------------------: |
@@ -187,7 +187,7 @@ above, and then converted into a letter grade using the following scale:
 | 3/26  | Unit 5 (Minimum Spanning Tree) | Unit 5 (Minimum Spanning Tree)      | Unit 5 (Bellman-Ford Algorithm)       |
 | 4/2   | Unit 5 (Dijkstra Algorithm)    | Unit 5 (Floyd-Warshall Algorithm)   | Backup Lecture                        |
 | 4/9   | Backup Lecture                 | Backup Lecture                      | Review for Final                      |
-| 4/16  | Patriots's Day                 | Final Exam                          | No Class                              |
+| 4/16  | Patriots's Day                 | Final Exam                          | No Class                              | -->
 
 ## Accommodations for Disabilities
 
