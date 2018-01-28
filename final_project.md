@@ -3,88 +3,93 @@
 ## Description
 
 Final course projects count as 20% of your final grade, with an optional
-additional 10% extra credit for those projects with novel features, or
-outstanding presentations. You can work on your final course project
-individually or in groups of no more than three students.
+additional 10% extra credit according to the novelty, implementation,
+difficulty, and report writing. You can work on your final course project
+individually or in groups of no more than three students. More group members
+need to demonstrate more work in the final project.
 
-Please use the link posted to Piazza to accept for the final project and push
-all the mertials to the created git repo. The deadline for the final project
-will be at 11:59pm EST, Dec 8th 2017. No submissions will be accepted after the
-given deadline. Submissions by email will not be accepted either.
+Please use the link posted to Piazza to accept the final project and push all
+the mertials to the created git repo. The deadline for the final project will
+be at 11:59pm EST, April 27th 2018. No submissions will be accepted after the
+given deadline. All the work need to be submitted to Github. Submissions by
+email will not be accepted.
+
+## Proposal
+
+Please submit a proposal for what you want to solve in your final project on
+Piazza. You can either list you group member. Or you can use this chance to
+find someone to work with you.
+
+The proposal should be no more than 2 short paragraphes long. Your TA and your
+instructor will evaluate your proposal to check for the difficulty. Proposal
+dues on Feb 23th, 2018. Everyone should have a team by then.
 
 ## Submission
 
 Your project submission consists of three parts:
 
-1. A porject report `readme.md`, written in markdown format and should be
+1. A porject report `report.md`, written in markdown format and should be
    directly viewable on Github. The whole report should be no more than 2000
    words.
 
-1. Push all your C, C++, or Simulink files to the Github repo. Any C or C++ code
-   should be accompanied by a Makefile, and should compile with no errors on the
-   ZedBoard or a CoE machine. Any submitted Simulink file should run a
-   simulation and be synthesized on the ZedBoard without errors. Also make sure
-   to give an instruction in your `readme.md` file about how to compile and run
-   your project. 
+1. Push all your files to the Github repo. Any C++ code should be accompanied
+   by a Makefile, and should compile with no errors on the c9.io workspace. If
+   you are familar with CMake, you can also organize your project with CMake.
+   Other compilation methods will not be accepted. Also, make sure to give an
+   instruction in a `readme.md` file about how to compile and run your code.
 
-1. A link to a YouTube Video with a demo of your project, with a **maximum
-   duration of 2 minutes**. Add this link to the end of your `readme.md` file.
-   If you work in a team, make sure that all members get equal opportunities to
-   participate in the presentation.
+1. If you think a video helps your demonstration, you can record video no more
+   than 5 minuets long and upload it to Youtube. You should paste a link to the
+   youtube page in your report.
 
 ## Report
 
 Your project report should have the following sections:
 
 1. Project title
-1. Project description
+1. Authors
+1. Introduction
 
-    List here all deatures of your project, and give some technical details
-    about their implementation. Also, give instructions on how to repeat your
-    experiments.
+    What problem you solve in your project. Why it is important. Motivate
+    readers in this section without too many technical details.
+
+1. Background (Optional)
+
+    If your project is based on others' work, briefly introduce that work.
+    Introduce the theory and terminologies you are going to use in the next a
+    few sections.
+
+1. Design
+
+    What is your approach. Briefly go over the technical details and challenges
+    of your implementation. What you have done to improve performance.
+
+1. Performance
+
+    What is the overall performance of your design. How you interprets that. Do
+    your performance optimization approaches work?
 
 1. Relevance
 
-    Cite here what parts of the course material you are exercising for the
-    design of the project. Explain what additional concepts this project helped
-    you to learn.
+    How your project links to the topics we covered in the class.
 
-1. Roles
+1. YouTube link (optional)
 
-    If you work in a group, describe here how each member contributed to the
-    development of the project.
-
-1. YouTube link
-
-    Add here a clickable link to a public YouTube video.
+    Add here a clickable link to your YouTube video.
 
 ## Project topics
 
 Just in order to give you an idea of the complexity expected from your final
-project, here are some examples of project topics chosen by other students in
-the past:
+project, here are some example projects:
 
-* Write a calculator on the ZedBoard, using switches as inputs, and LEDs as
-  outputs.
+* Efficient matrix multiplication algorithm implementation
+* Solve a rubics cube with algorithm
+* Solve a 15-puzzle problem with algorithm
+* Use KMeans algorithm to cluster data
+* Use PageRank to evaluate the importance of a node in a map
+* Multi-threaded Monte-Carlo method for PI calculation
+* Multi-threaded Merge Sort algorithm
+* Implemtation of a simple neural network for classification
 
-* Program the robotic arm with more complex and human-like movements. For
-  example, have it move an object, shake hands, high five, draw on a board with
-  a marker, etc.
-
-* Synchronize movements in the Wiimote with movements in the robotic arm. Think
-  of a situation where the robot is located in an inaccessible environment for a
-  human, such as a vacuum room, or a very low-temperature space, where you would
-  want a robot to mimic the movements of your own body.
-
-* Control hardware devices on the ZedBoard using the keyboard. For example, use
-  keys to move the robot in different directions, or write a program that
-  interprets commands, such as “dance”, “lay down”, or “grab an object”.
-
-* Write a simple computer game that involves interaction with hardware devices
-  and the ZedBaord.
-
-These are just some examples, and you are encouraged to come up with your own project ideas.
-
-Use the first week for brainstorming, and share your project proposal with
-me by November 3rd, either after class or on Slack. I will help you assess
-the feasibility and complexity of the project and refine your idea.
+These are just some examples, and you are encouraged to come up with your own
+project ideas.
