@@ -37,7 +37,7 @@ Tuesday, 2:30 PM - 3:30 PM or by appointment
 
 ## Prerequisites
 
-This course requires either EECE2510 or CS1500. A solid C++ programming skill
+This course requires either EECE2160 or CS1500. A solid C++ programming skill
 is required. Students should be very comfortable with writing loops, functions,
 arrays, pointers, and classes.
 
